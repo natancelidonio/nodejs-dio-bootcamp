@@ -1,0 +1,15 @@
+{
+  "name": "03-projeto-01-simulador-mario-kart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Natan Celidonio",
+  "license": "ISC",
+  "description": "Primeiro projeto do bootcamp NodeJS Fundamentals, da DIO",
+  "directories": {
+    "doc": "docs"
+  }
+}
