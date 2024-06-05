@@ -1,8 +1,13 @@
 // todas as funções que lidam com produto
 
-const productType ={
+const productType = {
     version: "digital",
     tax: "x1",
+}
+
+// hidden const
+const apiURL = {
+    url: "www.google.com/api",
 }
 
 async function getFullName(codeId, productName){
