@@ -1,6 +1,6 @@
 import qr from "qrcode-terminal";
 import chalk from "chalk";
-import createQrCode from "./create.js";
+import createQrCode from "./create-qrcode.js";
 
 
 async function handler(err, result) {
