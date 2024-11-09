@@ -40,4 +40,7 @@ Vou retornar em uma api rest o nome do podcast, nome do episódio, imagem de cap
     ]
     ```
 
-
+## Tecnologias
+- TypeScript
+- Node.js
+- Sem Frameworks
