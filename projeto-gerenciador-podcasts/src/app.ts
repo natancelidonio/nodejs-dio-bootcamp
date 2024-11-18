@@ -5,7 +5,7 @@ import { httpMethod } from "./utils/http-methods";
 
 export const app = async (req: http.IncomingMessage, res: http.ServerResponse) => {
         //querystring
-        const [baseUrl, querystring] = req.url?.split("?") ?? ["", ""];
+        const baseUrl = req.url?.split("?")[0]; 
         //listar todos podcasts
         if (req.method === httpMethod.GET && baseUrl === Routes.LIST) {
             await getListEpisodes(req, res);
